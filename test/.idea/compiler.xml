@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="JsonPracticParser" />
+        <module name="hmlPractic" />
+        <module name="Deal" />
+        <module name="Practica" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Deal" target="11" />
+      <module name="hmlPractic" target="11" />
+      <module name="JsonPracticParser" target="11" />
+      <module name="Practica" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
