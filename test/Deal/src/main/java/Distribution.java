@@ -1,77 +1,112 @@
 import org.apache.commons.math.util.MathUtils;
 
 public class Distribution {
+    private final static double INCOME = 1_000_000;
+    private final static double LPINCOME = 600_000;
+    private final static int MANSURX = 50000;
+    private final static double MIN_INCOME = 100_000;
+    private final static double MIDDLE_INCOME = 150_000;
+    private final static double MAX_INCOME = 200_000;
+    private final static double PERCENT_AMINA = 4.0 / 100;
+    private final static double PERCENT_AYZA = 6.575 / 100;
+    private final static double PERCENT_ADAMM = 0.8125 / 100;
+    private final static double PERCENT_MANSURK = 0.2875 / 100;
+    private final static double PERCENT_MANSURH = 0.48875 / 100;
+    private final static double PERCENT_MINKAIL = 0.625 / 100;
 
-    private final static double INCOME = 102_719.23;
-
-    private final static double MININCOME = 100_000;
-    private final static double MIDDLEINCOME = 150_000;
-    private final static double PERCENT10 = 10.0 / 100;
-    private final static double PERCENT1 = 1.0 / 100;
-    private final static double PERCENT05 = 0.5 / 100;
-
-
-    public int invest10() {
-        double x = Math.round(INCOME * PERCENT10);
+    public int investAmina() {
+        double x = Math.round(INCOME * PERCENT_AMINA);
         return (int) MathUtils.round(x, -2, +2);
     }
 
-    public int invest1() {
-        double x = Math.round(INCOME * PERCENT1);
+    public int investAyza() {
+        double x = Math.round(INCOME * PERCENT_AYZA);
         return (int) MathUtils.round(x, -2, +2);
     }
 
-    public int invest05() {
-        double x = Math.round(INCOME * PERCENT05);
+    public int investAdamM() {
+        double x = Math.round(INCOME * PERCENT_ADAMM);
         return (int) MathUtils.round(x, -2, +2);
+    }
+
+    public int investMK() {
+        double x = Math.round(INCOME * PERCENT_MANSURK);
+        return (int) MathUtils.round(x, -2, +2);
+    }
+
+    public int investMH() {
+        double x = Math.round(INCOME * PERCENT_MANSURH);
+        return (int) MathUtils.round(x, -2, +2);
+    }
+
+    public int investMinH() {
+        double x = Math.round(INCOME * PERCENT_MINKAIL);
+        return (int) MathUtils.round(x, -2, +2);
+    }
+
+    public int zpDirectorInv() {
+        return MANSURX + investMH();
+
+    }
+
+    public int zpManagerInv() {
+        return zpManager() + investMK();
     }
 
     public int zpManager() {
-        double x = INCOME * 7.0 / 100;
-        double y = INCOME * 3.5 / 100;
-
-        return INCOME >= MININCOME ? (int) MathUtils.round(x, -2, +2) : (int) MathUtils.round(y, -2, +2);
+        double x = (LPINCOME * 5.0 / 100);
+        return (int) MathUtils.round(x, -2, +2);
     }
 
-    public int zpSalesman() {
-        if (INCOME >= MININCOME && INCOME < MIDDLEINCOME) {
-            double x = Math.round(INCOME * 20.0 / 100);
-            return (int) MathUtils.round(x, -2, +2);
-        } else if (INCOME > 0 && INCOME < MININCOME) {
-            double x = Math.round(INCOME * 15.0 / 100);
-            return (int) MathUtils.round(x, -2, +2);
-        } else if (INCOME >= MIDDLEINCOME) {
-            double x = Math.round(INCOME * 25.0 / 100);
-            return (int) MathUtils.round(x, -2, +2);
-        }
-        return 0;
+
+    public int zpSalesman1() {
+        double x = LPINCOME * 15.0 / 100;
+        return (int) MathUtils.round(x, -2, +2);
     }
 
-    public int zpAssistant() {
-        double x = INCOME * 3.0 / 100;
-        double y = INCOME * 1.5 / 100;
-        return INCOME >= MININCOME ? (int) MathUtils.round(x, -2, +2) : (int) MathUtils.round(y, -2, +2);
+    public int zpSalesmanInv() {
+        return zpSalesman1() + investMinH();
+    }
+
+    public int zpSum() {
+        return zpSalesman1() + zpManager() + MANSURX;
+    }
+
+    public int sumInv() {
+        return investAmina() + investAmina() + investMK() + investMH() + investMinH();
     }
 
     public int expenses() {
-        return Math.round(zpManager() + zpSalesman() + zpAssistant() + invest10() + invest10() + invest1() + invest05());
+        return Math.round(zpDirectorInv() + zpManagerInv() + zpSalesmanInv() +
+                investAmina() + investAmina());
     }
 
     public double profit() {
-        return Math.round(INCOME - zpManager() - zpSalesman() - zpAssistant() - invest10() - invest10() - invest1() - invest05());
+        return Math.round(LPINCOME - zpDirectorInv() - zpManagerInv() - zpSalesmanInv() -
+                investAmina() - investAmina());
     }
 
 
     public String toString() {
-        return "ЗП менеджера (Мансур К): " + zpManager() + " руб." + "\n" +
-                "ЗП продавца (Минкаил Х): " + zpSalesman() + " руб." + "\n" +
-                "ЗП ассистент  (Магдан Х): " + zpAssistant() + " руб." + "\n" +
-                "Инвестиции Амины Н: " + invest10() + " руб." + "\n" +
-                "Инвестиции Айза У: " + invest10() + " руб." + "\n" +
-                "Инвестиции Мансура: " + invest1() + " руб." + "\n" +
-                "Инвестиции Минкаила: " + invest05() + " руб." + "\n" +
-                "Прибыль: " + profit() + " руб." + "\n" +
-                "Сумма Расходов: " + expenses() + " руб.";
-
+        return "Доход Deal: " + INCOME + " руб." + "\n" +
+                "Доход Лидер Печати: " + LPINCOME + " руб." + "\n" +
+                "ЗП команды: " + "\n" +
+                "Основателя (Мансур Х): " + MANSURX + " руб." + "\n" +
+                "Продавца (Минкаил Х): " + zpSalesman1() + " руб." + "\n" +
+                "Mенеджера (Мансур К): " + zpManager() + " руб." + "\n" +
+                "Сума всех зп: " + zpSum() + "руб." + "\n" +
+                "Инвестиции: " + "\n" +
+                "Айза У: " + investAyza() + " руб." + "\n" +
+                "Амина Н: " + investAmina() + " руб." + "\n" +
+                "Адам М: " + investAdamM() + " руб." + "\n" +
+                "Мансур Х: " + investMH() + " руб." + "\n" +
+                "Минкаил Х: " + investMinH() + " руб." + "\n" +
+                "Мансур К: " + investMK() + " руб." + "\n" +
+                "Сума всех инв: " + sumInv() + "руб." + "\n" +
+                "ЗП Основателя (Мансур Х) + инв: " + zpDirectorInv() + " руб." + "\n" +
+                "ЗП Продавца (Минкаил Х) + инв: " + zpSalesmanInv() + " руб." + "\n" +
+                "ЗП Mенеджера (Мансур К) + инв: " + zpManagerInv() + " руб." + "\n" +
+                "Итого Расходов: " + expenses() + " руб." + "\n" +
+                "Прибыль: " + profit() + " руб." + "\n";
     }
 }

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="85e28300-c9ec-4131-ba2e-b939719959d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/IdeaProjects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/groovy_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10_inheritance/10_inheritance.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_module/12_module.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13_practic/13_practic.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13_practic/lib/jsoup-1.14.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13_practic/src/hw1/FileEdit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13_practic/src/hw1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13_practic/src/hw1/stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13_practic/src/hw2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13_practic/src/hw3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13_practic/src/hw4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7_module_dateTime/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7_module_dateTime/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7_module_dateTime/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7_module_dateTime/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7_module_dateTime/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7_module_dateTime/7_module.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7_module_dateTime/7_module_dateTime.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../8_module_line/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../8_module_line/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../8_module_line/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../8_module_line/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../8_module_line/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../8_module_line/8_module_line.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9_module/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9_module/9_module.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Deal/Deal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Deal/src/main/java/Dopamine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Deal/src/main/java/economServis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Deal/src/main/java/kraftPaket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Deal/src/main/java/liderPechat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Deal/src/main/java/megaMarket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Deal/src/main/java/optPack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsonPracticParser/.idea/libraries/google_code_gson.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsonPracticParser/JsonPracticParser.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsonPracticParser/lib/json-simple-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsonPracticParser/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsonPracticParser/src/main/java/JsonPars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsonPracticParser/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsonPracticParser/src/main/java/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsonPracticParser/src/main/java/Root.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsonPracticParser/src/main/resources/list.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practica/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practica/src/main/java/Arithmetic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practica/src/main/java/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practica/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practica/src/main/java/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practica/src/main/java/SwimmingPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practica/src/main/java/randomNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practica/src/main/java/test/product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practica2/Practica2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practica2/src/DotCom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practica2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practica3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practica3/.idea/Practica3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practica3/Practica3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practica3/out/production/Practica3/.idea/Practica3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practica3/out/production/Practica3/Practica3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practica3/src/Elevator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practica3/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practica4Map.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PhoneBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Snake/Snake.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Snake/apple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Snake/dot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Snake/src/GameField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Snake/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmlPractic/hmlPractic.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmlPractic/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmlPractic/src/main/java/DomParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmlPractic/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmlPractic/src/main/java/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmlPractic/src/main/java/Root.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmlPractic/src/main/java/SaxParserHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmlPractic/src/main/java/saxParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmlPractic/test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Deal/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deal/src/main/java/Distribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Deal/src/main/java/Distribution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deal/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Deal/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deal/src/main/java/typePrices.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/PhoneBook.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="28yOtD42SWOT2vGZChg0Rsn6Vd2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last.edited.regexp" value="Sample Text" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../java_basics/09_ArraysAndCollections/homework_9.4/PhoneBook" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Practica4Map" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85e28300-c9ec-4131-ba2e-b939719959d8" name="Changes" comment="" />
+      <created>1652185642408</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652185642408</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

@@ -1,9 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        Distribution deal = new Distribution();
-        typePrices typePrices = new typePrices();
-        System.out.println(deal);
-        System.out.println();
-        System.out.println(typePrices);
+        Distribution dis = new Distribution();
+        liderPechat lp = new liderPechat();
+        Dopamine d = new Dopamine();
+        System.out.println(lp);
+        System.out.println(dis);
+        System.out.println(d);
+
     }
 }
