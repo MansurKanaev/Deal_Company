@@ -1,8 +1,8 @@
 import org.apache.commons.math.util.MathUtils;
 
 public class Distribution {
-    private final static double INCOME = 1_000_000;
-    private final static double LPINCOME = 600_000;
+    private final static double INCOME = 300_000;
+    private final static double LPINCOME = 250_000;
     private final static int MANSURX = 50000;
     private final static double MIN_INCOME = 100_000;
     private final static double MIDDLE_INCOME = 150_000;
